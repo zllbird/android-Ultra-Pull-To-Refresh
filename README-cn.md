@@ -1,3 +1,13 @@
+###### 欢迎关注我
+
+GitHub: https://github.com/liaohuqiu
+
+微博: http://weibo.com/liaohuqiu
+
+知乎: http://www.zhihu.com/people/liao-hu-qiu
+
+---
+
 # Ultra Pull To Refresh
 
 这是现在已经停止维护的下拉刷新项目的替代方案。继承于ViewGroup可以包含任何View。功能比SwipeRefreshLayout强大。
@@ -57,7 +67,7 @@
 
 项目已经发布到了Maven中央库，包括`aar`和`apklib`两种格式。在Maven或者Gradle下可如下直接引入:
 
-最新版版本号: `1.0.9.1-SNAPSHOT`, 发布到了: https://oss.sonatype.org/content/repositories/snapshots
+最新版版本号: `1.0.11`, 发布到了: https://oss.sonatype.org/content/repositories/snapshots
 
 在gradle中:
 
@@ -67,7 +77,7 @@ maven {
 }
 ```
 
-稳定版: `1.0.9`, https://oss.sonatype.org/content/repositories/releases, in gradle:
+稳定版: `1.0.11`, https://oss.sonatype.org/content/repositories/releases, in gradle:
 
 ```
 mavenCentral()
@@ -84,7 +94,7 @@ mavenCentral()
     <type>aar</type>
     <!-- or apklib format, if you want -->
     <!-- <type>apklib</type> -->
-    <version>1.0.9.1-SNAPSHOT</version>
+    <version>1.0.11</version>
 </dependency>
 
 稳定版
@@ -96,20 +106,20 @@ mavenCentral()
     <type>aar</type>
     <!-- or apklib format, if you want -->
     <!-- <type>apklib</type> -->
-    <version>1.0.9</version>
+    <version>1.0.11</version>
 </dependency>
 ```
 
 gradle / Android Studio, 最新版
 
 ```
-compile 'in.srain.cube:ultra-ptr:1.0.9.1-SNAPSHOT@aar'
+compile 'in.srain.cube:ultra-ptr:1.0.11'
 ```
 
 gradle / Android Studio, 稳定版
 
 ```
-compile 'in.srain.cube:ultra-ptr:1.0.9@aar'
+compile 'in.srain.cube:ultra-ptr:1.0.11'
 ```
 
 #### 配置
@@ -297,10 +307,13 @@ ptrFrame.setPtrHandler(new PtrHandler() {
 * 微博: http://weibo.com/liaohuqiu
 * QQ 群: 
 
-    加群前请先阅读群约定: https://github.com/liaohuqiu/qq-tribe-rule
-
     1. cube系列开源项目使用交流，问题解答: 271918140 (cube-sdk)
-    2. 如果你会通过google解决问题，喜欢独立思考，喜欢和优秀却又温和的人成为朋友，欢迎加入技术交流群: 417208555 (cube-core)
+
+        加群前请先阅读群约定: https://github.com/liaohuqiu/qq-tribe-rule
+
+    2. 如果你会通过google解决问题，喜欢独立思考，喜欢和优秀却又温和的人成为朋友，欢迎加入我们在 Slack 上的群组: 我们在 Slack 上的群组: 
+    
+        http://join-add1bit.liaohuqiu.net/?channel=git-android-ultra-ptr
 
 * srain@php.net
 * twitter: https://twitter.com/liaohuqiu
